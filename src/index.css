@@ -1,3 +1,22 @@
-.title {
-  color: blue;
-}
+/* === VARIÁVEIS === */
+@import './styles/variables.css';
+
+/* === RESET === */
+@import './styles/reset.css';
+
+/* === TIPOGRAFIA === */
+@import './styles/typography.css';
+
+/* === LAYOUT === */
+@import './styles/layout/header.css';
+@import './styles/layout/main.css';
+
+/* === COMPONENTES === */
+@import './styles/components/button.css';
+@import './styles/components/input.css';
+@import './styles/components/card.css';
+@import './styles/components/modal.css';
+
+/* === UTILITÁRIOS === */
+@import './styles/utils/helpers.css';
+

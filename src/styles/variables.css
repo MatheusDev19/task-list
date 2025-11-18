@@ -1,0 +1,66 @@
+:root {
+  /* === CORES PRINCIPAIS === */
+  --primary-blue: #4F46E5;
+  --primary-blue-hover: #4338CA;
+  --primary-blue-light: #818CF8;
+  
+  /* === BACKGROUNDS === */
+  --bg-main: #F9FAFB;
+  --bg-header: #FFFFFF;
+  --bg-card: #FFFFFF;
+  --bg-overlay: rgba(0, 0, 0, 0.5);
+  
+  /* === TEXTOS === */
+  --text-primary: #111827;
+  --text-secondary: #6B7280;
+  --text-light: #9CA3AF;
+  --text-white: #FFFFFF;
+  
+  /* === STATUS === */
+  --status-pending: #F59E0B;
+  --status-pending-bg: #FEF3C7;
+  --status-progress: #3B82F6;
+  --status-progress-bg: #DBEAFE;
+  --status-completed: #10B981;
+  --status-completed-bg: #D1FAE5;
+  
+  /* === BORDAS === */
+  --border-color: #E5E7EB;
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+  
+  /* === ESPAÇAMENTOS === */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-2xl: 48px;
+  
+  /* === SOMBRAS === */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 10px 15px rgba(0, 0, 0, 0.1);
+  
+  /* === TRANSIÇÕES === */
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.2s ease;
+  --transition-slow: 0.3s ease;
+  
+  /* === TIPOGRAFIA === */
+  --font-family: "Open Sans", sans-serif;
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-2xl: 24px;
+  --font-size-3xl: 28px;
+  
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+}

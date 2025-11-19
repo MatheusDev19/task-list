@@ -1,22 +1,7 @@
-/* === VARIÁVEIS === */
-@import './styles/variables.css';
+@import "./styles/variables.css";
+@import "./styles/reset.css";
 
-/* === RESET === */
-@import './styles/reset.css';
+@import "./styles/layout/header.css";
+@import "./styles/layout/main.css";
 
-/* === TIPOGRAFIA === */
-@import './styles/typography.css';
-
-/* === LAYOUT === */
-@import './styles/layout/header.css';
-@import './styles/layout/main.css';
-
-/* === COMPONENTES === */
-@import './styles/components/button.css';
-@import './styles/components/input.css';
-@import './styles/components/card.css';
-@import './styles/components/modal.css';
-
-/* === UTILITÁRIOS === */
-@import './styles/utils/helpers.css';
-
+@import "./styles/components/button.css";

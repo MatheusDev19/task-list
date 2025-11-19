@@ -16,14 +16,22 @@
     <div class="app">
       <header class="header">
         <h1 class="header-title">Task List</h1>
-        <button class="btn btn-contained">Create Task</button>
+        <button id="create-task-btn" class="btn btn-contained">
+          Create Task
+        </button>
       </header>
 
       <main class="main">
-        <div class="task-grid"></div>
+        <div class="task-grid">
+          <dialog id="modal-create-task" class="modal modal-create-task">
+            <form method="dialog">
+              <p>qualqure coisa</p>
+            </form>
+          </dialog>
+        </div>
       </main>
     </div>
 
-    <script src="index.js"></script>
+    <script type="module" src="scripts/index.js"></script>
   </body>
 </html>

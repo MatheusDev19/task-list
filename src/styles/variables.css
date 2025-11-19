@@ -7,7 +7,7 @@
   --color-error: #ef4444;
   --color-error-hover: #ff4f4f;
   --color-warning: #ff9800;
-  --color-warning-hover: #ed6c02 ;
+  --color-warning-hover: #ed6c02;
 
   /*  TEXTOS  */
   --text-color-default: #1c2142;
@@ -25,7 +25,7 @@
   --bg-header: #ffffff;
   --bg-card: #ffffff;
   --bg-overlay: rgba(0, 0, 0, 0.5);
-
+  
   /* TRANSIÇÕES */
   --transition-fast: 0.15s ease;
   --transition-normal: 0.2s ease;
@@ -67,6 +67,13 @@
   --spacing-md: 8px;
   --spacing-lg: 16px;
   --spacing-xl: 32px;
+
+  /*  PADDINGS  */
+  --padding-xs: 2px;
+  --padding-sm: 4px;
+  --padding-md: 8px;
+  --padding-lg: 16px;
+  --padding-xl: 32px;
 
   /* BORDER COLOR */
   --border-color-default: #e5e7eb;

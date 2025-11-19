@@ -1,0 +1,17 @@
+.modal {
+  margin: auto auto;
+  min-height: 400px;
+  min-width: 400px;
+  border: none;
+  outline: none;
+  border-radius: var(--border-radius-sm);
+  padding: var(--padding-lg);
+}
+
+.modal[open] {
+  display: block;
+}
+
+.modal::backdrop {
+  background: var(--bg-overlay);
+}

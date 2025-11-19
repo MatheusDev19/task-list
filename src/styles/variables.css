@@ -2,6 +2,12 @@
   /*  CORES PRINCIPAIS  */
   --color-primary: #4f46e5;
   --color-primary-hover: #4338ca;
+  --color-success: #4caf50;
+  --color-success-hover: #2e7d32;
+  --color-error: #ef4444;
+  --color-error-hover: #ff4f4f;
+  --color-warning: #ff9800;
+  --color-warning-hover: #ed6c02 ;
 
   /*  TEXTOS  */
   --text-color-default: #1c2142;
@@ -33,7 +39,7 @@
 
   /* STATUS DA RESPOSTAS */
   --res-status-success: #059669;
-  --res-status-danger: #f59e0b;
+  --res-status-warning: #f59e0b;
   --res-status-error: #ef4444;
 
   /*  TIPOGRAFIA  */
@@ -53,7 +59,7 @@
   --font-weight-lg: 500;
   --font-weight-xl: 600;
   --font-weight-xxl: 700;
-  --font-weight-xxl: 800;
+  --font-weight-xxxl: 800;
 
   /*  ESPAÇAMENTOS  */
   --spacing-xs: 2px;

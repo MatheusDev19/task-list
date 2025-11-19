@@ -43,18 +43,37 @@
   box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
 }
 
-.btn-danger {
-  background: var(--res-status-danger);
+.btn-warning {
+  background: var(--color-warning);
   color: var(--text-color-primary);
 }
 
+.btn-warning:hover:not(:disabled) {
+  background: var(--color-warning-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
+}
+
+.btn-error {
+  background: var(--color-error);
+  color: var(--text-color-primary);
+}
+
+.btn-error:hover:not(:disabled) {
+  background: var(--color-error-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
+}
+
 .btn-success {
-  background: var(--status-done);
+  background: var(--color-success);
   color: var(--text-color-primary);
 }
 
 .btn-success:hover:not(:disabled) {
-  background: var(--res-status-success);
+  background: var(--color-success-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
 }
 
 /* TAMANHOS */
@@ -72,4 +91,9 @@
 .btn-icon {
   padding: var(--spacing-sm);
   aspect-ratio: 1;
+}
+
+.no-hover {
+  opacity: 1;
+  transform: none !important;
 }

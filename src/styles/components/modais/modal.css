@@ -6,12 +6,41 @@
   outline: none;
   border-radius: var(--border-radius-sm);
   padding: var(--padding-lg);
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity var(--transition-normal),
+    transform var(--transition-normal),
+    display var(--transition-normal) allow-discrete,
+    overlay var(--transition-normal) allow-discrete;
 }
 
 .modal[open] {
   display: block;
+  opacity: 1;
+  transform: scale(1);
+}
+
+@starting-style {
+  .modal[open] {
+    opacity: 0;
+    transform: scale(0.9);
+  }
 }
 
 .modal::backdrop {
   background: var(--bg-overlay);
+  opacity: 0;
+  transition: opacity var(--transition-normal),
+    display var(--transition-normal) allow-discrete,
+    overlay var(--transition-normal) allow-discrete;
+}
+
+.modal[open]::backdrop {
+  opacity: 1;
+}
+
+@starting-style {
+  .modal[open]::backdrop {
+    opacity: 0;
+  }
 }

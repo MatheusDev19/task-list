@@ -22,15 +22,29 @@
       </header>
 
       <main class="main">
-        <div class="task-grid">
-          <dialog id="modal-create-task" class="modal modal-create-task">
-            <form method="dialog">
-              <p>qualqure coisa</p>
-            </form>
-          </dialog>
-        </div>
+        <div class="task-grid"></div>
       </main>
     </div>
+
+    <dialog id="modal-create-task" class="modal modal-create-task">
+      <form method="dialog">
+        <div class="modal-header">Create Task</div>
+        <div class="modal-content">
+          <div class="form-field-group">
+            <label for="name-task-field" class="col-form-label">Name task:</label>
+            <input type="text" class="form-control" id="name-task-field" />
+          </div>
+        </div>
+        <div class="modal-actions">
+          <button class="btn btn-outlined no-hover" type="reset">
+            Cancelar
+          </button>
+          <button class="btn btn-success no-hover" type="submit">
+            Confirmar
+          </button>
+        </div>
+      </form>
+    </dialog>
 
     <script type="module" src="scripts/index.js"></script>
   </body>
